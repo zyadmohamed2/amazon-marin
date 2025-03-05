@@ -54,7 +54,7 @@ export default function Home() {
         
       <Helmet>  
        <meta name="description" content={nameTags.description}/> 
-       <title>{nameTags.title}</title>
+       <title>{nameTags.name}</title>
       </Helmet>
        
         <meta charSet="utf-8" name="description" content="شركة شحن ونقل بحري لافضل واسرع توصيل بري وبحري" />
