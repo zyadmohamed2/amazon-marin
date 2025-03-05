@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+// .foter1{
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.footer {
+  width:100%;
+  background-color: white;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+  padding-right: 50px;
+}
+.footerdiv{
+  width: calc(100% / 3);
+  @media (max-width: 767px) {
+  width: 100%;  
+  }
+}
+  ul {
+        list-style: none;
+        padding: 0;
+  }
+ #flink{
+   text-decoration: none;
+   color: rgb(28, 27, 27) ;
+   font-size: 1.5rem;
+   &:hover{
+     text-decoration: underline;
+    }
+ }
+ li{
+  margin-top: 1rem;
+ }
+#fh4{
+  font-weight: 1000;
+  font-size: 1.8rem;
+}
+#fselect{
+  width: 9rem;
+  height: 2.5rem;
+  background-color: rgb(215, 219, 219);
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
+#fiacon{
+  width: 35px;
+  height: 33px;
+  &:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+
+
+//   .div1 {
+//     display: flex;
+//     justify-content: center;
+//     flex-wrap: wrap; 
+//     padding: 20px;
+//     gap: 8rem; 
+
+//     .navbar-brand {
+//       display: flex;
+//       align-items: center;
+
+//       .LOGO {
+//         max-width: 100px;
+//         height: 100px; 
+//         border-radius: 50%; 
+//         object-fit: cover; 
+//       }
+
+//       .navbar-toggler {
+//         display: none;
+//       }
+//     }
+
+//     ul {
+//       list-style: none;
+//       padding: 0;
+
+//       h4 {
+//         font-size: 1.3rem;
+//         margin-bottom: 10px;
+//         color: #333;
+//         font-weight: bold;
+//       }
+
+//       li {
+//         margin-bottom: 5px;
+//         color: #555;
+
+//         a {
+//           text-decoration: none;
+//           color: #555;
+
+//           &:hover {
+//             color: #f768a0;
+//           }
+//         }
+
+//         svg {
+//           margin-right: 8px;
+//           vertical-align: middle;
+//           color: #f768a0;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media (min-width: 768px) and (max-width: 1024px) {
+//    ul {
+//     h4 {
+//       font-size: 1.2rem;
+//     }
+
+//     li {
+//       font-size: 1rem;
+//     }
+//   }
+// }
+
+// @media (max-width: 442px) {
+//     ul {
+//     h4 {
+//       font-size: 1.1rem;
+//     }
+
+//     li {
+//       font-size: 0.9rem;
+//     }
+//   }
+// }
