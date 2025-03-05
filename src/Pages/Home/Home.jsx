@@ -51,14 +51,10 @@ export default function Home() {
   return (
     <div className="col-12 homepage"  dir={userLang === 'ar' ? 'rtl' : 'ltr'}>
       <div className="hero-section" autoFocus>
+        
       <Helmet>  
-         {
-           nameTags.map((el) => (
-             <div key={el.id}>
-         <meta name={el.name} content={el.content}/> 
-         </div>
-        ))
-      }
+       <meta name="description" content={nameTags.description}/> 
+       <title>{nameTags.title}</title>
       </Helmet>
        
         <meta charSet="utf-8" name="description" content="شركة شحن ونقل بحري لافضل واسرع توصيل بري وبحري" />
