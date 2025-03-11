@@ -107,7 +107,6 @@ p {
   background-size: 100% 120%;
   margin-top: 4rem;
   padding-top: 1px;
-  // overflow-x: hidden;
 }
 .data1{
   display: flex;
@@ -181,7 +180,6 @@ h4{
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  /* font at md */
   p {
     font-size: 16px !important;
   }
@@ -191,7 +189,6 @@ h4{
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  /* font at lg */
   html {
     font-size: 16px !important;
   }

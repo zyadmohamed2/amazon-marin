@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "./MainLayout/MainLayout";
 import Home from "../Pages/Home/Home";
-// import P404 from "../Pages/P404/P404";
 import SingleNew from "../Pages/NEWS/SingleNew";
 import MySwiper from "./Swiper 3/MySwiper";
 import MySwiper4 from "./Swiper4/MySwiper4";

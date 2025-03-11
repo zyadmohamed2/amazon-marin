@@ -83,7 +83,7 @@ export default function MySwiper1() {
           solutions.map((solution) => (
          <div key={solution.id}>
           <div className="main44"  onMouseOver={() => {setBackgroundImage(solution.photoPath)}}  >
-          <img className='img33' src={solution.icon}/>
+          <img className='img33' src={solution.icon}  alt='best shipping company with cargos'  />
           <h3 className='title33'>{solution.title}</h3>
           </div>
           </div>
@@ -96,56 +96,3 @@ export default function MySwiper1() {
     </div>
   )
 }
-
-{/* <div className="slider-container">
-    <Slider {...settings}  className='slider1'  style={{ backgroundImage: `url(${backgroundImage})`}} >
-    {homeProduct.map((el) => (
-      <div key={el.id}>
-          <div
-            className="main44"
-            onMouseOver={() => {
-                setBackgroundImage(el.photoPath);
-              }}
-              >
-            <img className='img33' src={el.icon} />
-            <h3 className='title33'>{el.title}</h3>
-          </div>
-       </div>
-        ))
-       }
-    </Slider>
-  </div> */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/* <div>
-    {homeProduct.map((el, index) => (
-            <div
-              className="main4"
-              onMouseOver={() => {
-                setBackgroundImage('https://msc-p-001.sitecorecontenthub.cloud/api/public/content/3818c0049f7348cf974e2fcff85067bd?v=376b3b4b?w=1880');
-              }}
-            >
-              <h1>section {index + 1}</h1>
-              <img src={el.icon} />
-            </div>
-          ))
-         }
-    </div> */}

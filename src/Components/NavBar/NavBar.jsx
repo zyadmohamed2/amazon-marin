@@ -50,7 +50,7 @@ function NavBar() {
           <ul className="navbar-nav mx-auto gap-3">
             <li className="nav-item">
              <NavLink to="/">
-                <img src={logo} alt="logo" className="logo-img" />
+                <img src={logo} alt="logo" className="logo-img"  />
              </NavLink>
             </li>
           </ul>

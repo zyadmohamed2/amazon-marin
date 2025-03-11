@@ -92,6 +92,7 @@ export default function MySwiper() {
             <Card.Img
               variant="top"
               src={item.photoPath}
+              alt="best shipping company with seeds fruits all kinds"
               style={{ objectFit: "cover",borderRadius:"0"}}
               />
             <Card.Body style={{position:"relative"}}>
@@ -105,6 +106,7 @@ export default function MySwiper() {
                style={{position:"absolute",bottom:"5px",left:"5px",backgroundColor:"transparent",border:"none",fontSize:"11px" }}>
               <a style={{textDecorationLine:"none",color:"black"}} 
               href={`swiper3/${item.id}`}
+              aria-description="shipping company cargos"
               >READ MORE</a>
              <FontAwesomeIcon icon={faArrowCircleRight} style={{color:"rgb(238, 212, 132)" ,marginLeft:"7px" ,fontSize:"15px"}}/>
             </Button>

@@ -63,7 +63,7 @@ export default function MYForm() {
         Query: values.Query,
       };
     
-      // Using native FormData API
+      
       const formData = new FormData();
       Object.entries(data).forEach(([key, value]) => {
         formData.append(key, value);
@@ -195,14 +195,9 @@ export default function MYForm() {
                 placeholder={t("text.tell us more about your query")}
               />
               <ErrorMessage name="Query"
-              //  component="div" 
                className="error" />
             </div>
-           {/* <div className="col-lg-10 col-md-12 col-sm-12    fild3">
-              <Field type="checkbox" name="agreeToTerms" className="input3" style={{color:"yellow"}} />
-              <label htmlFor="agreeToTerms" style={{color:"CaptionText",textIndent:"10px"}}>  I have read and agree to the Privacy Policy & I agree to be contacted by MSC in regards to my query.</label>
-              <ErrorMessage name="agreeToTerms" className="error"/>
-           </div> */}
+          
            <div className="finalfild col-lg-10 col-md-12 col-sm-12">
            <button className="sub" type="submit" disabled={isSubmitting}>
                 {t("text.  Submit")}

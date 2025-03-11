@@ -20,8 +20,9 @@ export default function Footer() {
           <ul>
             <h5 id="fh4">{t("text.COUNTRY-LOCATION / LOCAL OFFICE")}</h5>
             <li>
+            <label for="fselect">{t("text.Choose Country")}</label>
+            <br/>
               <select id="fselect">
-                <option value="">{t("text.Choose Country")}</option>
                 {countries.map((country) => (
                   <option key={country.unicode} value={country.name}>
                     {country.name}
@@ -30,17 +31,17 @@ export default function Footer() {
               </select>
             </li>
             <li>
-              <a id="flink" href="/MakeUp">
+              <a id="flink" href="/"  aria-label="شركة شحن">
               <FontAwesomeIcon icon={faPhone}/>
               <span>+2022540974</span>
               </a>
             </li>
             <li>
-              <a id="flink" href="/SkinCare">
+              <a id="flink" href="/"  aria-label="شركة شحن"> 
               <FontAwesomeIcon icon={faMailBulk}/>
               <span>eg177-AA.egypt@AA.com </span>
               </a>
-              <a id="flink" href="/SkinCare">
+              <a id="flink" href="/"  aria-label="شركة شحن">
               <FontAwesomeIcon icon={faBuildingColumns}/>
               <span>{t("text.Office Details")}</span>
               </a>
@@ -51,26 +52,26 @@ export default function Footer() {
           <ul>
             <h5 id="fh4">{t("text.Doing business togethe")}</h5>
             <li>
-              <a id="flink" href="/">
+              <a id="flink" href="/"  aria-label="شركة شحن">
               {t("text.Solutions /")}
               </a>
-              <a id="flink" href="/">
+              <a id="flink" href="/" aria-label="شركة شحن"> 
              {t('text. Local information/')}
               </a>
-              <a id="flink" href="/">
+              <a id="flink" href="/" aria-label="best shipping company">
              {t("text. E-Buisness")}
               </a>
             </li>
             <li style={{paddingLeft:"25px"}}>
-              <a id="flink" href="/MakeUp">
+              <a id="flink" href="/" aria-label="best shipping company">
               {t("text.Sustainability /")}
               </a>
-              <a id="flink" href="/MakeUp">
+              <a id="flink" href="/" aria-label="best shipping company">
                MY MA
               </a>
             </li>
             <li style={{visibility:"hidden"}}>
-              <a id="flink" href="/SkinCare">
+              <a id="flink" href="/" aria-label="best shipping company">
                 {" "}
                 SkinCare
               </a>
@@ -81,52 +82,52 @@ export default function Footer() {
           <ul>
             <h5 id="fh4">{t("text.Get to know us")}</h5>
             <li>
-              <a id="flink" href="/">
+              <a id="flink" href="/" aria-label="best shipping company" >
                {t("text.  AM Group /")}
               </a>
-              <a id="flink" href="/">
+              <a id="flink" href="/" aria-label="best shipping company">
               {t("text.News Room /")}
               </a>
-              <a id="flink" href="/">
+              <a id="flink" href="/" aria-label="best shipping company">
               {t("text.Events /")}
               </a>
-              <a id="flink" href="/">
+              <a id="flink" href="/" aria-label="best shipping company">
               {t("text.Blog /")}
               </a>
             </li>
             <li>
-              <a id="flink" href="/MakeUp">
+              <a id="flink" href="/" aria-label="best shipping company">
               {t("text.Careers/")}
               </a>
-              <a id="flink" href="/MakeUp">
+              <a id="flink" href="/" aria-label="best shipping company">
               {t("text.ContactUs/")}
               </a>
-              <a id="flink" href="/MakeUp">
+              <a id="flink" href="/" aria-label="best shipping company">
               {t("text. Preference Center")}
               </a>
             </li>
             <li className="d-flex">
-              <a id="flink" href="/SkinCare">
+              <a id="flink" href="/" aria-label="best shipping company" >
               <div id="fiacon"  >
              <FontAwesomeIcon  icon={faFacebookF} />
               </div>
               </a>
-              <a id="flink" href="/SkinCare">
+              <a id="flink" href="/" aria-label="best shipping company">
               <div  id="fiacon">
                <FontAwesomeIcon icon={faX} />
               </div>
               </a>
-              <a id="flink" href="/SkinCare">
+              <a id="flink" href="/" aria-label="best shipping company">
               <div  id="fiacon">
                <FontAwesomeIcon  icon={faInstagram} />
               </div>
               </a>
-              <a id="flink" href="/SkinCare">
+              <a id="flink" href="/" aria-label="best shipping company" >
               <div  id="fiacon">
                <FontAwesomeIcon  icon={faLinkedinIn} />
               </div>
               </a>
-              <a id="flink" href="/SkinCare">
+              <a id="flink" href="/" aria-label="amazon marin best shipping company" >
               <div  id="fiacon">
                <FontAwesomeIcon  icon={faYoutube}/>
               </div>
@@ -138,78 +139,3 @@ export default function Footer() {
     </div>
   );
 }
-
-// import "./Footer.scss";
-// import { Link } from "react-router-dom";
-// import logo from '../../assets/logo.png';
-
-// import {
-//   FaEnvelope,
-//   FaTwitter,
-//   FaYoutube,
-//   FaLinkedin,
-//   FaFacebook,
-// } from "react-icons/fa";
-// export default function Footer() {
-//   return (
-//     <div>
-//       <div className="col-12 ">
-//         <div className=" footer  ">
-//           <div className=" div1 container d-flex ">
-//             <div className="LOGO">
-//            <Link className="navbar-brand" to="/">
-//             <img src={logo} alt="logo"  className="LOGO" />
-//           </Link>
-//               <button
-//                 className="navbar-toggler"
-//                 type="button"
-//                 data-bs-toggle="collapse"
-//                 data-bs-target="#navbarSupportedContent"
-//                 aria-controls="navbarSupportedContent"
-//                 aria-expanded="false"
-//                 aria-label="Toggle navigation"
-//               >
-//                 <span className="navbar-toggler-icon"></span>
-//               </button>
-//             </div>
-//             <div>
-//               <ul>
-//                 <li> <h4> Accounts</h4><a href=""> My Account</a></li>
-//                 <li><a href="">Check Order</a> </li>
-//               </ul>
-//             </div>
-
-//             <div>
-//               <ul>
-//                 <h4>About Us</h4>
-//                 <li><a href="/"> Home </a></li>
-//                 <li><a href="/MakeUp"> MakeUp</a></li>
-//                 <li><a href="/SkinCare"> SkinCare</a></li>
-//               </ul>
-//             </div>
-//             <div>
-//               <ul>
-//                 <h4> Contact Us</h4>
-//                 <li><FaEnvelope /> Email</li>
-//                 <li> <FaTwitter /> Twitter</li>
-//                 <li> <FaYoutube /> Youtube</li>
-//                  <li><FaLinkedin /> Linkedin</li>
-//                 <li> <FaFacebook /> Facebook </li>
-//               </ul>
-//             </div>
-//             <div>
-//               <ul>
-//                 <h4>LEGAL</h4>
-//                 <li>terms andconditions of sale</li>
-//                 <li>Privacy Notice</li>
-//                 <li>Do Not sell My Personal information</li>
-//                 <li> Cookie Privacy </li>
-//                 <li> Terms of Use </li>
-//               </ul>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }

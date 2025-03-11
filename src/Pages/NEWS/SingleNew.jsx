@@ -24,7 +24,6 @@ export default function SingleNew() {
       .then((res) => {
         console.log(res.data);
         setproduct(res.data);
-        // console.log(res.data.data);
       });
   }, []);
 
@@ -40,12 +39,7 @@ export default function SingleNew() {
           {product.title}
         </a>
         <div className="mainnewssection">
-          {/* <div id="minydivs">
-            <div className="minydiv">{product.title}</div>
-            <div className="minydiv">AFRICA</div>
-            <div className="minydiv">SHIPPING SOLUTIONS</div>
-            <div className="minydiv">LOGISTIC SOLUTIONS</div>
-          </div> */}
+        
           <div className="newscontent col-8">
             <h1 className="newsh">
              {product.title}
@@ -54,12 +48,15 @@ export default function SingleNew() {
             <span className="newspan">{product.date}</span>
           </div>
           <div>
-            <img id="newsimg" src={product.photoPath}/>
+            <img id="newsimg" src={product.photoPath}
+            
+            alt="افضل شركات الشحن الجوي والبحري والدولي لجميع انواع البضائع "
+            
+            />
           </div>
           <div  className="col-8">
             <b className="newstexts1">
             <div className="text-center"  dangerouslySetInnerHTML={{ __html: product.description }} />
-             {/* {product.description} */}
             </b>
           </div>
         </div>

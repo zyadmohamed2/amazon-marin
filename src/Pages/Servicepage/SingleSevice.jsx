@@ -39,7 +39,7 @@ export default function SingleSevice() {
       <div className="servicemain">
         <img
           src={item.photoPath}
-          alt="Your Image"
+          alt="cargos and services for shippping"
           className="serviceimage"
         />
         <div class="serviceoverlay">
@@ -72,7 +72,9 @@ export default function SingleSevice() {
         </div>
        <div className="col-lg-6 col-md-12 col-1sm-2">
         <div className="w-100 h-100">
-     <img src={product.photoPath} className="serviceimg"/>
+     <img src={product.photoPath} className="serviceimg"
+       alt=" amazon marin best ahipping company"
+     />
        </div>
         </div>
     </div>

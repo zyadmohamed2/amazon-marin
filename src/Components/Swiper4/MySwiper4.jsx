@@ -82,7 +82,7 @@ export default function MySwiper4() {
              news.map((element) => (
 
               <div key={element.id}>
-              <a  className="cardlink"  href={`swiper4/${element.id}`}>
+              <a  className="cardlink"  href={`swiper4/${element.id}`}    aria-description="shipping company cargos" >
                 <Card
                   className="text-white"
                   style={{
@@ -95,7 +95,7 @@ export default function MySwiper4() {
                 >
                   <Card.Img
                     src={element.photoPath}
-                    alt="Card image"
+                    alt="Cargos"
                     style={{
                       height: "25rem",
                       objectFit: "cover",
@@ -105,20 +105,6 @@ export default function MySwiper4() {
                     
                   />{" "}
                   <Card.ImgOverlay>
-                    {/* <Card.Title className="titlecard4"
-                      style={{
-                        width: "8rem",
-                        height: "2rem",
-                        backgroundColor: "rgb(243, 196, 54)",
-                        color: "black",
-                        position: "absolute",
-                        top: "0",
-                        borderRadius: "0 0 10px 10px",
-                        textAlign: "center",
-                        paddingTop: "2px",
-                        fontSize: "14px",
-                        fontWeight: "bold",
-                      }}>{element.title}</Card.Title> */}
                     <Card.Text style={{position:"absolute",bottom:"2rem"}}>
                       <p1>{element.date}</p1>
                       <br/>
