@@ -137,7 +137,6 @@ export default function Home() {
               <div>
                 <img
                   src="src/assets/employee (4).png"
-                  alt="افضل شركة شحن"
                   style={{ width: "100px", height: "100px" }}
                 />
               </div>
@@ -148,7 +147,6 @@ export default function Home() {
               <div>
                 <img
                   src="src/assets/1solutions/ship (1).png"
-                  alt="best shipping company"
                   style={{ width: "90px", height: "90px" }}
                 />
               </div>
@@ -159,7 +157,6 @@ export default function Home() {
               <div>
                 <img
                   src="src/assets/shipping.png"
-                  alt="شركة شحن سريع تتبع جمركي"
                   style={{ width: "90px", height: "90px" }}
                 />
               </div>
@@ -171,7 +168,6 @@ export default function Home() {
                 <img
                   src="src/assets/office-building.png"
                   style={{ width: "90px", height: "90px" }}
-                  alt="شركة شحن دولي وبحري وجوي"
                 />
               </div>
               <h2 style={{ fontWeight: "900", color: "white" }}>740</h2>
@@ -193,7 +189,7 @@ export default function Home() {
       <div className="lastsection">
         <div className="container">
           <div className="col-12 d-flex justify-content-between">
-            <h4 className="text-md-center">{t("text.CUSTOMER ADVISORIES")}</h4>
+            <h4 className="text-md-center    h114">{t("text.CUSTOMER ADVISORIES")}</h4>
          
           </div>
           <hr style={{ color: "white", fontSize: "100px" }} />

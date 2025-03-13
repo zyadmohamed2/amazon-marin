@@ -73,6 +73,7 @@ body {
  
  @media screen and (min-width: 769px) and (max-width: 991px) {
   .logo-img {
+    text-align: center !important;
     width: 65px;
     height: 65px;
    }
@@ -83,6 +84,7 @@ body {
  
  @media screen and (min-width: 992px) and (min-width: 1200px) {
   .logo-img{
+    text-align: center !important;
     width:80px;
     height: 80px;
   }

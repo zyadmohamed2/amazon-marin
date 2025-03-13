@@ -2,13 +2,14 @@
      width: 25rem !important; 
      height: 28rem !important;
 }
+
 .card-text {
      display: -webkit-box !important;
      -webkit-line-clamp: 3 !important;
      -webkit-box-orient: vertical !important; 
      overflow: hidden !important;
      line-clamp: 3 !important;
-     box-orient: vertical;
+     box-orient: vertical !important;
    }
 .slick-prev:before{
      font-weight: 100 !important;
@@ -33,6 +34,7 @@
 @media screen and (min-width: 0px) and (max-width: 767px){
      .card-text{
           display: block !important;
+          font-size: 14px !important;
      }
      .card3{
           height:fit-content !important;

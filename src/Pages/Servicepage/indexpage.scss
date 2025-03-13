@@ -18,6 +18,8 @@ align-items: center !important;
     height: 77vh;
     width: 100%;
     object-fit: cover;
+    position: center;
+    repeat: no-repeat;
 }
 
 .serviceoverlay{
@@ -45,6 +47,8 @@ p{
     object-fit: cover !important;
     height: 70vh !important;
     width: 100%;
+    position: center !important;
+    repeat: no-repeat;
 }
 .servicetext{
  display: flex;

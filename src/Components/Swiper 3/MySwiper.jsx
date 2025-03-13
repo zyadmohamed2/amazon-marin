@@ -90,9 +90,9 @@ export default function MySwiper() {
             <div key={item.id}>
             <Card style={{border:"none",borderRadius:"0",backgroundColor:"rgb(242, 242, 242)"}} className="card3" >
             <Card.Img
+              className="cardimg"
               variant="top"
               src={item.photoPath}
-              alt="best shipping company with seeds fruits all kinds"
               style={{ objectFit: "cover",borderRadius:"0"}}
               />
             <Card.Body style={{position:"relative"}}>

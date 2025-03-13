@@ -22,6 +22,8 @@ body {
   height: 95vh !important;
   background-image: url(http://www.msc.com/-/media/images/msc-cargo/vessels/2023/msc-michelle-cappellini-in-sunset-view.jpg?rev=8f8cd0bc304542cb828bf50ca29c4519?w=1920&hash=D6FB955052ABF32163674997FDE584BE);
   background-size: cover;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
   font-family: Ubuntu, sans-serif;
   border-bottom: 0.6rem solid rgb(238, 212, 132);
 }
@@ -35,6 +37,7 @@ body {
   position: relative;
   top: 8.5rem;
 }
+
 .content {
   display: flex;
   flex-direction: column;
@@ -104,7 +107,10 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url('https://www.msc.com/-/media/images/msc-cargo/vessels/2023/msc-somar-sailing-in-the-sunset.jpg?rev=89f1c06a346740159c9a7c639f8e5305?w=1920&hash=BC7A0E902D7E67C483FB160FC44BB743');
-  background-size: 100% 120%;
+  // background-size: 100% 120%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin-top: 4rem;
   padding-top: 1px;
 }
@@ -158,13 +164,25 @@ h4{
 
 
 @media screen and (min-width: 100px) and (max-width: 767px) {
+  p{
+    font-size: 14px !important;
+  }
+  .h114{
+    font-size: 20px !important;
+  }
+  .hero-section{
+    height: 65vh !important;
+  }
   .h11 {
     position: relative;
     top: 10rem;
-    font-size: 29px !important;
+    font-size: 30px !important;
+  }
+  .h12{
+    font-size: 25px !important;
   }
   .section3{
-    height: fit-content;
+    height: fit-content !important;
     background-size:cover;
   }
   .section3 .content h1{
@@ -175,16 +193,23 @@ h4{
     font-size: 2rem;
     text-align: center;
   }
- 
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .h114{
+    font-size: 25px !important;
+  }
   p {
     font-size: 16px !important;
   }
-  .hero-section {
-    height: 50vh !important;
+  .hero-section{
+    height: 65vh !important;
+  }
+  .h11{
+    font-size: 35px !important;
+  }
+  .h12{
+    font-size: 30px !important;
   }
 }
 

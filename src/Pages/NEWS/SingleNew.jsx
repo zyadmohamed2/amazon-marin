@@ -49,9 +49,6 @@ export default function SingleNew() {
           </div>
           <div>
             <img id="newsimg" src={product.photoPath}
-            
-            alt="افضل شركات الشحن الجوي والبحري والدولي لجميع انواع البضائع "
-            
             />
           </div>
           <div  className="col-8">

@@ -51,7 +51,7 @@ export default function MySwiper2() {
       <Slider {...settings}>
           {
             images.map((image,index) => (
-              <div>
+              <div className='main5'>
               <div>
                 <img src={image.photoPath} className='img55' alt='best shipping company amazon marin'  /> 
               </div>

@@ -60,5 +60,16 @@
   border: 1px solid black;
   border-radius: 50%;
   margin: 0 4px;
+  
 }
 
+@media screen and (min-width: 100px) and (max-width: 768px) {
+ #fh4{
+  font-size: 20px !important;
+ }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  #fh4{
+    font-size: 25px !important;
+   }
+}

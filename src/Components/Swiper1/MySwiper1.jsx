@@ -83,7 +83,7 @@ export default function MySwiper1() {
           solutions.map((solution) => (
          <div key={solution.id}>
           <div className="main44"  onMouseOver={() => {setBackgroundImage(solution.photoPath)}}  >
-          <img className='img33' src={solution.icon}  alt='best shipping company with cargos'  />
+          <img className='img33' src={solution.icon}   />
           <h3 className='title33'>{solution.title}</h3>
           </div>
           </div>

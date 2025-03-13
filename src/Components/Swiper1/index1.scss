@@ -33,7 +33,17 @@
     height:70px ;
 }
 
+@media screen and (min-width: 100px) and (max-width: 767px) {
 
+  .slider1{
+    height: 55vh !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }  
+  .main44{
+    height: 55vh !important;
+  }
+}
 
 
 

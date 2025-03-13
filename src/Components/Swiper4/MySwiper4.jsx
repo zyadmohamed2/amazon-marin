@@ -95,7 +95,6 @@ export default function MySwiper4() {
                 >
                   <Card.Img
                     src={element.photoPath}
-                    alt="Cargos"
                     style={{
                       height: "25rem",
                       objectFit: "cover",
