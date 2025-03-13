@@ -71,7 +71,17 @@ p{
     .serviceimage{
         height: 40vh;
     }
+    .hservice{
+        font-size: 25px !important;
+        text-align: center !important;
+    }
     .servicelist{
         height: fit-content !important;
     }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+   .hservice{
+    font-size: 30px !important;
+    text-align: center !important;
+   }
 }

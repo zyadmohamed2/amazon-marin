@@ -42,7 +42,7 @@ export default function SingleSevice() {
           className="serviceimage"
         />
         <div class="serviceoverlay">
-          <h1 className="text-sm-center" style={{color:"black",fontWeight:"bolder",fontSize:"45px"}}>
+          <h1 className="text-sm-center   hservice" style={{color:"black",fontWeight:"bolder",fontSize:"45px"}}>
             {item.name}
           </h1>
         </div>
